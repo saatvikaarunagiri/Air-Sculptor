@@ -2,7 +2,7 @@
 
 **Draw in the air with your finger -> export a 3D-printable model.**
 
-A **3D/4D computer vision + ML** app: it tracks your hand in 3D, reconstructs your air-strokes into watertight 3D meshes, and ships **two neural nets I trained from scratch**, a gesture recogniser (hands-free control) and a facial-expression classifier (mood-based color).
+A **3D/4D computer vision + ML** app: it tracks your hand in 3D, reconstructs your air strokes into watertight 3D meshes, and ships **two neural nets I trained from scratch**, a gesture recogniser (hands free control) and a facial expression classifier (mood based color).
 
 ```bash
 conda activate sculptor
