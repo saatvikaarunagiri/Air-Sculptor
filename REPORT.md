@@ -1,21 +1,8 @@
 # Air Sculptor — Project Report
 
-> Fill in the **[bracketed]** parts with your own real numbers after training on
-> data you collected. This template is structured the way a reviewer (recruiter,
-> professor) expects, and it emphasises the ML/CV and software-engineering work.
-
-**Author:** Saatvika · **Date:** [date] · **Repo:** [your GitHub link]
-
----
-
 ## 1. Summary
 
-Air Sculptor is a real-time computer-vision application that lets a user draw in
-the air with their fingertip and export a 3D-printable model. On top of the
-geometry engine, it adds **two machine-learning models trained from scratch**: a
-hand-gesture recognizer for hands-free control and a facial-expression recognizer
-that drives mood-based colouring. The system runs fully on-device (Apple M-series,
-MPS) and is privacy-first (no video/audio leaves the machine).
+Air Sculptor is a real-time computer-vision application that lets a user draw in the air with their fingertip and export a 3D-printable model. On top of the geometry engine, it adds **two machine-learning models trained from scratch**: a hand gesture recognizer for hands-free control and a facial-expression recognizer that drives mood-based colouring. The system runs fully on-device (Apple M-series, MPS) and is privacy-first (no video/audio leaves the machine).
 
 ## 2. Problem & motivation
 
@@ -32,8 +19,7 @@ Webcam ─▶ MediaPipe (hands + face landmarks)
 UI: Tkinter (pastel), offline voice (Vosk/pyttsx3), local-only session storage
 ```
 
-Key engineering: threaded camera capture, fail-soft ML loading, translation/
-scale-invariant feature design, reproducible stratified data splits.
+Key engineering: threaded camera capture, fail-soft ML loading, translation/ scale-invariant feature design, reproducible stratified data splits.
 
 ## 4. Machine learning
 
