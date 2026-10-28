@@ -20,4 +20,4 @@ python app.py
 
 **Run with ML:** `python app.py --gestures --emotion` · **Train the models + full setup:** see **[USER_GUIDE.md](USER_GUIDE.md)**
 
-<sub>Python | PyTorch | MediaPipe | OpenCV | trimesh | MIT License | questions -s aatvika22@outlook.com</sub>
+<sub>Python | PyTorch | MediaPipe | OpenCV | trimesh | MIT License | questions - saatvika22@outlook.com</sub>
