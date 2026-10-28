@@ -1,7 +1,7 @@
 # Air Sculptor — User Guide & Manual
 
 Everything you need, step by step, for **macOS, Windows, and Linux**. Stuck on
-something not covered here? → **saatvika22@outlook.com**
+something not covered here? -> **saatvika22@outlook.com**
 
 ---
 
@@ -47,7 +47,7 @@ python -c "import cv2, mediapipe as mp; print('cv2 ok | solutions:', hasattr(mp,
 **Voice (optional):** `pip install -r requirements-voice.txt` then
 `python download_model.py` (downloads a ~40 MB offline speech model once).
 
-> ⚠️ **One environment, always.** Pick `sculptor` and `conda activate sculptor`
+> **One environment, always.** Pick `sculptor` and `conda activate sculptor`
 > every time. Mixing a `venv` and conda is the #1 cause of "ModuleNotFoundError".
 
 ## 3. Run the app
@@ -78,7 +78,7 @@ exits). Mic is optional.
    data-collector windows for fullscreen.
 
 ## 5. Keychain mode
-Tick **🔑 Keychain mode** before saving. It fuses a small loop onto your
+Tick **Keychain mode** before saving. It fuses a small loop onto your
 sculpture so the printed piece can be threaded onto a keyring or necklace. Opens
 in any slicer (Bambu Studio, Cura, PrusaSlicer) or macOS Quick Look.
 
